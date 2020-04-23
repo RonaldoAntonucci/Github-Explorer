@@ -77,13 +77,18 @@ export const Repositories = styled.div`
 
     div {
       margin-left: 16px;
-      color: #3d3d4d;
-    }
+      flex: 1;
 
-    p {
-      font-size: 18px;
-      color: #a8a8bd;
-      margin-top: 4px;
+      strong {
+        font-size: 20px;
+        color: #3d3d4d;
+      }
+
+      p {
+        font-size: 18px;
+        color: #a8a8bd;
+        margin-top: 4px;
+      }
     }
 
     svg {
